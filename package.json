@@ -1,0 +1,39 @@
+{
+  "name": "smash-websocket",
+  "version": "0.0.1",
+  "description": "Additional layer for websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noxs/SmashWebsocket.git"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "timothee@fromsmash.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Noxs/SmashWebsocket/issues"
+  },
+  "homepage": "https://github.com/Noxs/SmashWebsocket#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-jest": "^22.10.0",
+    "jest": "^24.8.0",
+    "jest-extended": "^0.11.2",
+    "codecov": "^3.0.4"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended"
+    ]
+  },
+  "dependencies": {
+    "websocket": "^1.0.29"
+  }
+}
